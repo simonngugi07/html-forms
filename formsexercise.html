@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html, body {
+            display: flex;
+            justify-content: center;
+            height: 100px;
+        }
+        button {
+            width: 100%;
+            padding:0;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+            background: white;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        h3{
+            background-color: darkorange;
+            background: darkorange;
+            padding: 5px;
+        }
+        table{
+            background-color: darkslateblue;
+
+        }
+        .block{
+            background: darkorange;
+
+        }
+
+        .main-block{
+            max-width: 340px;
+            min-height: 460px;
+            padding: 10px 0;
+            margin: auto;
+            border-radius: 5px;
+            box-shadow: 1px 2px 5px rgba(0,0,0,31);
+        }
+        
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Forms exercise</title>
+</head>
+<body class="main-block">
+<form>
+    <div>
+        <h3>Sign Up</h3>
+
+    </div>
+    <hr>
+    <div>
+    <table>
+<tr>
+    <th></th>
+    <th></th>
+</tr>
+        <tr>
+            <td><label for="fname">First Name:</label><br></td>
+            <td>  <input type="text" id="fname" name="fname" value="" placeholder="Enter First Name"><br></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Last Name:</label><br></td>
+            <td><input type="text" id="fname" name="fname" value="" placeholder="Enter Last Name"></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Date of Birth:</label><br></td>
+            <td><select name="date" id="date"><option value="date">Date</option></select>
+                <select name="month" id="month"><option value="month">Month</option></select>
+                <select name="year" id="year"><option value="year">Year</option></select></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Gender:</label></td>
+            <td><input type="radio" value="none" id="male" name="gender"checked>
+                <label for="male" class="radio" >Male</label>
+
+                <input type="radio" value="none" id="female" name="gender">
+                <label for="female" class="radio" >Female</label> </td>
+        </tr>
+        <tr>
+            <td><label for="fname">Country:</label></td>
+            <td><select name="country" id="country" >
+                <option value="country">Country</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="fname">E-mail:</label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter  Email" required></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Phone</label></td>
+            <td><input type="text" name="name" id="name" placeholder="Enter Phone" required></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Password</label></td>
+            <td> <input type="text" name="name" id="name" placeholder="Password" required></td>
+        </tr>
+        <tr>
+            <td><label for="fname">Confirm Password</label></td>
+            <td> <input type="text" name="name" id="name" placeholder="Password" required></td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td><input type="checkbox" id="words" name="none" value="none">
+                <label for="none" >I Agree to the terms of use</label></td>
+        </tr>
+    </table>
+    </div>
+    <hr>
+    <div class="block">
+        <button type="submit"href="/">Submit</button>
+        <button type="Cancel"href="/">Cancel</button>
+
+    </div>
+
+</form>
+
+</body>
+</html>
